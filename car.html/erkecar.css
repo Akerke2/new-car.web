@@ -5,8 +5,6 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    Box-sizing: border-box;
-
 }
 
 header {
@@ -35,9 +33,7 @@ header {
 }
 
 .car-logo {
-    width: 350px;
-    height: 200px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     margin-top: 0px;
@@ -51,8 +47,6 @@ header {
 }
 
 .car-logo h1 {
-    display: flex;
-    justify-content: center;
     font-size: 20px;
     margin-top: auto;
     color: aliceblue;
@@ -79,44 +73,14 @@ header {
     font-size: 10px;
 }
 
-.container1 {
-    width: 60%;
+.card {
     margin: 0 auto;
-    background-color: rgb(227, 141, 155);
-    height: 255px;
-    width: 255px;
     border-radius: 29px;
-    background: linear-gradient(145deg, #c8ddff, #a8bade);
     box-shadow: 17px 17px 34px #8e9dbc,
         -17px -17px 34px #e8ffff;
 }
 
-.container2 {
-    width: 60%;
-    margin: 0 auto;
-    background-color: rgb(227, 141, 155);
-    height: 255px;
-    width: 255px;
-    border-radius: 29px;
-    background: linear-gradient(145deg, #ffe5e5, #e6c1c1);
-    box-shadow: 17px 17px 34px #c2a3a3,
-        -17px -17px 34px #ffffff;
-        
-}
 
-.container3 {
-    margin-top: 20px;
-    width: 60%;
-    margin: 0 auto;
-    background-color: rgb(227, 141, 155);
-    height: 255px;
-    width: 255px;
-    flex-wrap: wrap;
-    border-radius: 29px;
-    background: linear-gradient(145deg, #e5fff4, #c1e6cd);
-    box-shadow: 17px 17px 34px #a3c2ad,
-        -17px -17px 34px #ffffff;
-}
 .container3 p {
     font-size: 13px;
 }
@@ -201,6 +165,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 .section-44 {
@@ -249,13 +214,12 @@ header {
     body {
         background-color: rgb(255, 255, 255);
         background-image: url("img-car/car\ project.jpg");
-        box-sizing: border-box;
         background-size: 100% 750px;
-
+     
     }
 
     header {
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -312,9 +276,6 @@ header {
     }
 
     .car-logo h1 {
-        display: flex;
-        text-align: center;
-        justify-content: center;
         margin-top: 25px;
         color: aliceblue;
         font-size: 55px;
@@ -334,6 +295,7 @@ header {
 
     .car-logo {
         margin-top: 15px;
+        text-align: center;
     }
 
     .text-container-desktop h1 {
@@ -356,21 +318,16 @@ header {
 
     .cards-container {
         flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
     }
 
-    .container1 {
-        margin-top: 20px;
-        width: 60%;
-        margin: 0 auto;
-        background-color: rgb(227, 141, 155);
+    .card {
         height: 255px;
-        width: 255px;
-        /* flex-direction: row;
-        flex-wrap: wrap; */
+        width: 30%;
         border-radius: 29px;
-        background: linear-gradient(145deg, #c8ddff, #a8bade);
-        box-shadow: 17px 17px 34px #8e9dbc,
-            -17px -17px 34px #e8ffff;
+        /* box-shadow: 17px 17px 34px #8e9dbc,
+            -17px -17px 34px #e8ffff; */
     }
 
     .container1 p {
@@ -382,32 +339,6 @@ header {
         justify-content: center;
     }
 
-    .container2 {
-        width: 60%;
-        margin: 0 auto;
-        background-color: rgb(227, 141, 155);
-        height: 255px;
-        width: 255px;
-        border-radius: 29px;
-        background: linear-gradient(145deg, #ffe5e5, #e6c1c1);
-        box-shadow: 17px 17px 34px #c2a3a3,
-            -17px -17px 34px #ffffff;
-            
-    }
-    
-    .container3 {
-        margin-top: 20px;
-        width: 60%;
-        margin: 0 auto;
-        background-color: rgb(227, 141, 155);
-        height: 255px;
-        width: 255px;
-        flex-wrap: wrap;
-        border-radius: 29px;
-        background: linear-gradient(145deg, #e5fff4, #c1e6cd);
-        box-shadow: 17px 17px 34px #a3c2ad,
-            -17px -17px 34px #ffffff;
-    }
     .container3 p {
         font-size: 13px;
     }
@@ -443,8 +374,6 @@ header {
         background-color: rgba(255, 235, 179, 0.992);
         height: 355px;
         width: 305px;
-        margin-top: 45px;
-        margin-left: 0px;
     }
 
     .bmw-list-mobile {
@@ -454,8 +383,9 @@ header {
 
     .bmw-list {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         margin-top: 155px;
+        gap: 30px;
     }
 
     .text-list4 {
@@ -498,8 +428,27 @@ header {
         height:405px;
         width: 455px;
     }
-    .text-list4-mobile {
-        font-size: 55px;
+    .text-list4-mobile p{
+        margin-left: 25px;
+        margin-top: 55px;
+        font-size: 21px;
     }
-    
+    .text-list4 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .bmw p {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .profile-img {
+        height:"75px";
+        width:"85px";
+    }
+    .list-55 {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }

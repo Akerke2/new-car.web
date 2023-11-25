@@ -1,0 +1,354 @@
+.Logo-header {
+    width: 150px;
+    height: 34.3px;
+    flex-shrink: 0;
+}
+
+.navigator-header {
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.but-header {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.poisk {
+    width: 20.001px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.button-header {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    text-decoration: none;
+    padding: 5px;
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section {
+    
+
+} */
+.log-list {
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+}
+
+.max-img {
+    /* background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%); */
+    width: 518px;
+    height: 518px;
+    flex-shrink: 0;
+    left: 255px;
+    top: 305px;
+}
+
+.min-img {
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    /* background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%) lightgray 50% / cover no-repeat; */
+    width: 135px;
+    height: 135px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 403px;
+    left: 550px;
+    display: flex;
+    justify-content: right;
+}
+
+.img-max-home {
+    display: flex;
+    justify-content: right;
+    display: flex;
+    left: 123px;
+}
+
+.text-logo {
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.p-text-logo {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    display: flex;
+    top: 25px;
+}
+
+.planet {
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+
+.text-logo h1 {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.log-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list2 {
+    width: 190px;
+    height: 384px;
+    flex-shrink: 0;
+    background: #cfcfcf;
+    gap: 15px;
+
+}
+
+.menu-list2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 17px;
+}
+
+.menu-h4 {
+    top: 15px;
+}
+
+.dollar {
+    color: #46A358;
+}
+
+.filter-button-list2 {
+    width: 90px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    display: flex;
+    align-items: center;
+}
+
+.list2 {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: left; */
+    /* gap: 105px; */
+}
+
+.nav-list2 a {
+    text-decoration: none;
+    color: black;
+    gap: 55px;
+}
+
+.tovar1 {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    /* background: url(<path-to-image>), rgb(255, 156, 156) 50% / cover no-repeat; */
+    background: #a4a0a0;
+    mix-blend-mode: multiply;
+    /* flex-wrap: wrap; */
+    padding: 15px;
+}
+
+.img-list2-tovar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+    right: 105px;
+    top: 9px;
+    left: 5px;
+}
+
+
+
+
+.menu-h4 a {
+    color: rgb(255, 255, 255);
+}
+
+.text-list3 p,
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.our-img-list3 {
+    width: 268px;
+    height: 195.174px;
+    flex-shrink: 0;
+
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 25px;
+
+}
+
+.list3 {
+    top: 255px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.container1 {
+    width: 586px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #ffffff;
+}
+
+.form {
+    width: 1024px;
+    height: 533px;
+    flex-shrink: 0;
+    opacity: 0.5;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+
+
+
+
+
+.background {
+    background: url("assets/Background.png") no-repeat center center
+      fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    gap: 24px;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  
+  h1 {
+    font-family: "Creepster", cursive;
+    color: white;
+  }
+  
+  .terms {
+    color: white;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+  }
+  
+  .input-field {
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-bottom: 12px;
+  }
+  
+  .input-field::placeholder {
+    color: white;
+    opacity: 1; /* Optional, to ensure full color visibility */
+    font-family: "Creepster", cursive;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #d3510b; /* Halloween orange */
+    color: #000;
+    font-weight: 700;
+    font-family: "Creepster", cursive;
+  }
+  .creepy-button {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .web {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(""); /* Replace with your spider web image */
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* So it doesn't interfere with button click */
+  }
+  
+  .creepy-button:hover .web {
+    opacity: 0.7;
+  }
